@@ -1,23 +1,53 @@
 body {
-  /* background-color: blue; */
   background-image: url("../images/main-background.png");
 }
-/* header {
+.navbar{
+  padding-top: 10px;
+  padding-bottom: 0;
+  border-bottom-style: solid;
+  border-bottom-color: #cccccc;
+  border-bottom-width: 1px;
+}
+.navbar-brand{
+  padding: 0;
+}
+.navi-bar{
+  height: 53px;
+}
+.central {
   background-color: #ffffff;
-} */
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+  margin-top: 30px;
+}
 .your-name {
   background-color: #4aaaa5;
   color: #ffffff;
   text-align: center;
+  padding: 10px;
+  margin: 0;
 }
 
 #my-photo {
   margin-right: 10px;
   float: left;
 }
+hr{
+  border: 1px solid #dddddd;
+}
 .about-me {
-  padding: 0;
+  padding: 10;
+  color: #4aaaa5;
 }
 .info {
   padding: 0;
+}
+.botton-line{
+  height: 10px;
+  background-color: #4aaaa5;
+}
+footer{
+  background-color: #666666;
+  color: #ffffff;
 }
