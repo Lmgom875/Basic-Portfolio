@@ -2,59 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/index-style.css">
     <title>Basic-Portfolio</title>
 </head>
-
 <body>
-  <header>
-        <h1 class="your-name">Your Name</h1>
-        <ul>
-          <!-- <li><a class="active" href="#home">Home</a></li> -->
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navi-bar container">
+            <a href="#" class="navbar-brand">
+                <h3>Your Name</h3> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Nav Menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item mr-auto">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="main container">
+        <div class="central container">
+            <div class="row">
+                <div class="about-me col-12">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+            <br>
+            <div class="info row-12">
+                <div class="info col-12">
+                    <img id="my-photo" src=" http://placehold.it/400x200" alt="My picture">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, explicabo odio quidem eligendi esse ut, assumenda voluptate veniam voluptas minus consectetur perspiciatis alias corporis provident inventore, soluta sunt quod numquam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, explicabo odio quidem eligendi esse ut, assumenda voluptate veniam voluptas minus consectetur perspiciatis alias corporis provident inventore, soluta sunt quod numquam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, explicabo odio quidem eligendi esse ut, assumenda voluptate veniam voluptas minus consectetur perspiciatis alias corporis provident inventore, soluta sunt quod numquam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, explicabo odio quidem eligendi esse ut, assumenda voluptate veniam voluptas minus consectetur perspiciatis alias corporis provident inventore, soluta sunt quod numquam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, explicabo odio quidem eligendi esse ut, assumenda voluptate veniam voluptas minus consectetur perspiciatis alias corporis provident inventore, soluta sunt quod numquam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, explicabo odio quidem eligendi esse ut, assumenda voluptate veniam voluptas minus consectetur perspiciatis alias corporis provident inventore, soluta sunt quod numquam!</p>
 
-  </header>
-  <div class="main">
-    <div id="about-me">
-        <h1>About Me</h1>
-        <hr>
-        <img src=" http://placehold.it/400x200" alt="My picture">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscingt.
-            Sed posuere ex blandit, posuere est non, malesuada
-            lorem. Donec vehicula justo ante. Maecenas ut interdum 
-            enim. Quisque felis dui, feugiat a efficitur at, lacinia 
-            nec leo. Ut sollicitudin est sed commodo dictum. Donec 
-            fringilla et ante commodo placerat. Quisque nec venenatis 
-            augue. Curabitur id est ac sem congue convallis. <br><br> Morbi
-            lacinia feugiat posuere. Aliquam vel tortor vel arcu 
-            rhoncus semper at id urna. Donec metus velit, eleifend quis 
-            mattis sit amet, luctus sed mauris. Integer sed ante a mauris
-            semper fermentum. Aenean imperdiet, tortor dapibus maximus 
-            accumsan, neque nibh consectetur nunc, sit amet luctus quam 
-            metus id leo. Cras nisl leo, interdum sit amet semper eget, 
-            varius quis orci. Nullam malesuada dui eu leo vestibulum finibus
-            nec non sem. Donec ac pellentesque nisi, dictum commodo massa. 
-            Sed tempor risus eleifend, vestibulum nisl consequat, finibus 
-            ligula. Praesent facilisis fringilla urna, eget consequat ante 
-            convallis sit amet. Nunc mollis quam et diam porta sollicitudin. 
-            Phasellus ac eros eget diam venenatis sodales. Donec non vestibulum 
-            erat. Vestibulum fermentum volutpat rhoncus. Nulla facilisi. <br><br>
-            Donec a laoreet ante. Quisque molestie quis sapien nec ultricies. 
-            Nunc at cursus sem. Praesent ut aliquet eros, non luctus metus. 
-            Nullam euismod tortor a diam tincidunt varius. Nullam molestie 
-            vitae libero ac cursus. Phasellus faucibus sollicitudin molestie. 
-            In hendrerit sapien non felis commodo, quis luctus magna laoreet.
-        </p> 
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <footer class="footer">&copy; Copyright 2019
-      <!-- que siempre se quede abajo se hace con css -->
-  </footer>  
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
