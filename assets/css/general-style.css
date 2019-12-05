@@ -33,6 +33,29 @@ body {
   margin-right: 10px;
   float: left;
 }
+.photo-line {
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+.mix-photo {
+  padding: 10px 0;
+}
+.photo-wraper{
+  position: relative;
+}
+.photo-text {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  width: 239px;
+  height: 34px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+} 
 hr{
   border: 1px solid #dddddd;
 }
