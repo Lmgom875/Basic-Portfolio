@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	//rendePhoto();
+	rendePhoto();
 	flipcard();
 
 	//<<<<Variables>>>>\\
@@ -14,10 +14,6 @@ $(document).ready(function () {
 		var cardContent = ($("#card-content-front").height());
 		var bodyHeight = cardTitle + cardContent + 35;
 		var cardHeight = photoHeight + bodyHeight + 10;
-		console.log("card-title " + cardTitle);
-		console.log("card-content " + cardContent);
-		console.log("body-height " + bodyHeight);
-		console.log("card-height " + cardHeight);
 		$(".card-body").attr("style", "height: " + bodyHeight + "px !important");
 		$("#card-bodyBack-row").attr("style", "height: " + bodyHeight + "px !important");
 		$(".card").attr("style", "height: " + cardHeight + "px !important");
@@ -26,20 +22,29 @@ $(document).ready(function () {
 	}
 
 	function rendePhoto() {
-		var cardImg = $("<img src= 'http://placehold.it/239x200' class= 'mix-photo' alt= 'mix-photo'/>");
-		var cardImg2 = $("<img src= 'http://placehold.it/239x200' class= 'mix-photo' alt= 'mix-photo'/>");
-		var cardDesc = $("<div class= 'photo-text col mx-auto d-block'>").text("Photo Desc Front");
-		var cardDesc2 = $("<div class= 'photo-text col mx-auto d-block'>").text("Photo Desc Back");
-		var cardFront = $("<div class= 'front card-front' id= 'card-front'>");
-		var cardBack = $("<div class= 'back card-back' id= 'card-back'>")
-		var cardIcon = $("<i class= 'fas fa-github'>");
-		var card = $("<div class= 'card no-gutters col-sm-12 col-md-6 col-lg-4 col-xl-3'>")
-		cardFront.append(cardImg);
-		cardFront.append(cardDesc);
+		var cardPhotoFront = $("<img src= 'http://placehold.it/283x200' class= 'mix-photo card-img-top' alt= 'mix-photo'/>");
+		var cardPhotoBack = $("<img src= 'http://placehold.it/283x200' class= 'mix-photo card-img-top' alt= 'mix-photo'/>");
+		var cardBodyFront = $("<div class= 'card-body' id= 'card-body-front'>");
+		var cardBodyBack = $("<div class= 'card-body' id= 'card-body-back'>");
+		var cardTitle = $("<div class= 'card-title text-center' id= 'card-title-front'>");
+		var cardContent = $("<div class= 'card-content' id= 'card-content-front'>");
+		var cardRowBack = $("<div class= 'row no-gutters align-items-center justify-content-around' id= 'card-back-row'>");
+		var cardGithubIcon = $("<a href= 'http://github.com' target= '_blank'><img src= './assets/images/icons8-github-120.png' id= 'github-image' alt= 'Github Icon'>");
+		var cardInternetIcon = $("<a href= 'http://google.com/' target= '_blank'><img src= './assets/images/icons8-internet-100.png' id= 'internet-image' alt= 'Internet Icon' >");
+		var cardFront = $("<div class= 'front'>");
+		var cardBack = $("<div class= 'back'>")
+		var card = $("<div class= 'card col-sm-12 col-md-12 col-lg-3 col-xl-3'>")
 		card.append(cardFront);
-		cardBack.append(cardImg2);
-		cardBack.append(cardDesc2);
+		cardFront.append(cardPhotoFront);
+		cardFront.append(cardBodyFront);
+		cardBodyFront.append(cardTitle);
+		cardBodyFront.append(cardContent);
 		card.append(cardBack);
+		cardBack.append(cardPhotoBack);
+		cardBack.append(cardBodyBack);
+		cardBodyBack.append(cardRowBack);
+		cardRowBack.append(cardGithubIcon);
+		cardRowBack.append(cardInternetIcon);
 		$("#photo-line").append(card);
 	}
 
