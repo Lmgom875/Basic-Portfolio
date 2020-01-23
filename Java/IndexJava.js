@@ -4,7 +4,24 @@ $(document).ready(function () {
 
 	//<<<<Variables>>>>\\
 
-
+	var proyects = [
+		{
+			title: "Code Quiz",
+			description: "Short multi-selection quiz from Star Wars facts, with timer and score.",
+			photo: "../assets/images/CodeQuiz.PNG",
+		}, {
+			title: "Password Generator",
+			description: "Web app to generate randoms password with the criteria selected.",
+			photo: "../assets/images/PasswordGenerator.PNG",
+		}, {
+			title: "Day Planner",
+			description: "Small web app to store events in selected time lap (localy).",
+			photo: "../assets/images/DailyPlanner.PNG",
+		}, {
+			title: "Weather Dashboard",
+			description: "Web app with a external API service that say the now weather and the forecast for the next five days.",
+			photo: "../assets/images/WeatherDashboard.PNG",
+		}];
 
 	//<<<<Function>>>>\\
 
