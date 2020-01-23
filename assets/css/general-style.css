@@ -1,76 +1,111 @@
 body {
-  background-image: url("../images/main-background.png");
+	background-image: url('../images/main-background.png');
 }
-.navbar{
-  padding-top: 10px;
-  padding-bottom: 0;
-  border-bottom-style: solid;
-  border-bottom-color: #cccccc;
-  border-bottom-width: 1px;
+.navbar {
+	padding-top: 10px;
+	padding-bottom: 0;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	border-bottom-width: 1px;
 }
-.navbar-brand{
-  padding: 0;
+.navbar-brand {
+	padding: 0;
 }
-.navi-bar{
-  height: 53px;
+.navi-bar {
+	height: 53px;
 }
-.central {
-  background-color: #ffffff;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #dddddd;
-  margin-top: 30px;
+.central-container {
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	margin-top: 30px;
 }
 .your-name {
-  background-color: #4aaaa5;
-  color: #ffffff;
-  text-align: center;
-  padding: 10px;
-  margin: 0;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
 }
 
+
 #my-photo {
-  margin-right: 10px;
-  float: left;
+	margin-right: 10px;
+	float: left;
 }
-.photo-line {
-  padding: 0 15px;
-  margin-bottom: 15px;
+.card{
+	padding: 0;
+	margin-bottom: 20px;
+	background-color: unset;
+
+}
+.card-body{
+	padding: 0;
+}
+.front{
+	background-color: #f8f9fa;
+}
+.back{
+	background-color: #f8f9fa;
+
+}
+.card-title{
+	margin-top: 0.25rem;
+}
+p{
+	padding: 0 5px;
+}
+img{
+	vertical-align: unset;
+}
+#github-image{
+	height: 80px;
+	width: 80px;
+}
+/* .photo-line {
+	padding: 0 15px;
+	margin-bottom: 15px;
 }
 .mix-photo {
-  padding: 10px 0;
+	padding: 10px 0;
 }
-.photo-wraper{
-  position: relative;
+.photo-wraper {
+	position: relative;
 }
 .photo-text {
-  position: absolute;
-  bottom: 5px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0;
-  width: 239px;
-  height: 34px;
-  text-align: center;
-  font-size: 20px;
-  background-color: #4aaaa5;
-  color: #ffffff;
-} 
-hr{
-  border: 1px solid #dddddd;
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0;
+	width: 239px;
+	height: 34px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+} */
+hr {
+	border: 1px solid #dddddd;
+	margin-top: 0;
+	margin: 10px;
 }
 .about-me {
-  padding: 10;
-  color: #4aaaa5;
+	color: #4aaaa5;
+}
+#main-title{
+	padding: 0 10px;
 }
 .info {
-  padding: 0;
+	padding: 0;
 }
-.botton-line{
-  height: 10px;
-  background-color: #4aaaa5;
+.botton-line {
+	margin-top: 1rem;
+	height: 10px;
+	background-color: #4aaaa5;
 }
-footer{
-  background-color: #666666;
-  color: #ffffff;
+footer {
+	background-color: #666666;
+	color: #ffffff;
 }
