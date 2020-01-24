@@ -28,8 +28,6 @@ body {
 	padding: 10px;
 	margin: 0;
 }
-
-
 #my-photo {
 	margin-right: 10px;
 	float: left;
@@ -38,7 +36,6 @@ body {
 	padding: 0;
 	margin: 20px;
 	background-color: unset;
-
 }
 .card-body{
 	padding: 0;
@@ -48,7 +45,6 @@ body {
 }
 .back{
 	background-color: #f8f9fa;
-
 }
 .card-title{
 	margin-top: 0.25rem;
