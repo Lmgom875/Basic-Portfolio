@@ -7,18 +7,26 @@ $(document).ready(function () {
 			title: "Code Quiz",
 			description: "Short multi-selection quiz from Star Wars facts, with timer and score.",
 			photo: "./assets/images/CodeQuiz.PNG",
+			github: "https://github.com/Lmgom875/code_quiz",
+			weblink: "https://lmgom875.github.io/code_quiz/",
 		}, {
 			title: "Password Generator",
 			description: "Web app to generate randoms password with the criteria selected.",
 			photo: "./assets/images/PasswordGenerator.PNG",
+			github: "https://github.com/Lmgom875/password-generator",
+			weblink: "https://lmgom875.github.io/password-generator/",
 		}, {
 			title: "Day Planner",
 			description: "Small web app to store events in selected time lap (localy).",
 			photo: "./assets/images/DailyPlanner.PNG",
+			github: "https://github.com/Lmgom875/dayPlanner",
+			weblink: "https://lmgom875.github.io/dayPlanner/",
 		}, {
 			title: "Weather Dashboard",
 			description: "Web app with a external API service that say the now weather and the forecast for the next five days.",
 			photo: "./assets/images/WeatherDashboard.PNG",
+			github: "https://github.com/Lmgom875/WeatherDashboard",
+			weblink: "https://lmgom875.github.io/WeatherDashboard/",
 		}];
 
 	rendePhoto();
@@ -38,8 +46,8 @@ $(document).ready(function () {
 			var cardTitle = $("<div class= 'card-title text-center' id= 'card-title-front" + i + "'>");
 			var cardContent = $("<div class= 'card-content' id= 'card-content-front" + i + "'>");
 			var cardRowBack = $("<div class= 'row no-gutters align-items-center justify-content-around' id= 'card-back-row" + i + "'>");
-			var cardGithubIcon = $("<a href= 'http://github.com' target= '_blank'><img src= './assets/images/icons8-github-120.png' class= 'github-image' id= 'github-image" + i + "' alt= 'Github Icon'>");
-			var cardInternetIcon = $("<a href= 'http://google.com/' target= '_blank'><img src= './assets/images/icons8-internet-100.png' id= 'internet-image" + i + "' alt= 'Internet Icon' >");
+			var cardGithubIcon = $("<a href= '" + proyects[i].github + "' target= '_blank'><img src= './assets/images/icons8-github-120.png' class= 'github-image' id= 'github-image" + i + "' alt= 'Github Icon'>");
+			var cardInternetIcon = $("<a href= '" + proyects[i].weblink + "' target= '_blank'><img src= './assets/images/icons8-internet-100.png' id= 'internet-image" + i + "' alt= 'Internet Icon' >");
 			var cardFront = $("<div class= 'front' id= 'front" + i + "'>");
 			var cardBack = $("<div class= 'back' id= 'back" + i + "'>")
 			var card = $("<div class= 'card col-sm-12 col-md-12 col-lg-3 col-xl-3' id= 'card" + i + "'>")
