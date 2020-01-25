@@ -15,7 +15,7 @@ body {
 	height: 53px;
 }
 .central-container {
-	background-color: #ffffff;
+	background-color: #f8f8ff;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #dddddd;
@@ -31,6 +31,10 @@ body {
 #my-photo {
 	margin-right: 10px;
 	float: left;
+}
+#resumeImage{
+	margin-bottom: 20px;
+	width: 90%;
 }
 .card{
 	padding: 0;
@@ -74,11 +78,11 @@ hr {
 .about-me {
 	color: #4aaaa5;
 }
-#main-title{
+.main-title{
 	padding: 0 10px;
 }
-.info {
-	padding: 0;
+#info {
+	padding: 20px;
 }
 .botton-line {
 	margin-top: 1rem;
