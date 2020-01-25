@@ -44,7 +44,7 @@ $(document).ready(function () {
 			var cardBodyFront = $("<div class= 'card-body' id= 'card-body-front" + i + "'>");
 			var cardBodyBack = $("<div class= 'card-body' id= 'card-body-back" + i + "'>");
 			var cardTitle = $("<div class= 'card-title text-center' id= 'card-title-front" + i + "'>");
-			var cardContent = $("<div class= 'card-content text-center' id= 'card-content-front" + i + "'>");
+			var cardContent = $("<div class= 'card-content' id= 'card-content-front" + i + "'>");
 			var cardRowBack = $("<div class= 'row no-gutters align-items-center justify-content-around' id= 'card-back-row" + i + "'>");
 			var cardGithubIcon = $("<a href= '" + proyects[i].github + "' target= '_blank'><img src= './assets/images/icons8-github-120.png' class= 'github-image' id= 'github-image" + i + "' alt= 'Github Icon'>");
 			var cardInternetIcon = $("<a href= '" + proyects[i].weblink + "' target= '_blank'><img src= './assets/images/icons8-internet-100.png' id= 'internet-image" + i + "' alt= 'Internet Icon' >");
@@ -53,7 +53,7 @@ $(document).ready(function () {
 			var card = $("<div class= 'card col-sm-12 col-md-12 col-lg-3 col-xl-3' id= 'card" + i + "'>")
 			var cardTitleText = $("<h4 id= 'title-text" + i + "'>").html(proyects[i].title);
 			var cardContentText = $("<p id= 'content-text" + i + "'>").html(proyects[i].description);
-			var cardContentText2 = $("<p class= 'content-message'>").html("Flip for links.");
+			var cardContentText2 = $("<p id= 'content-message" + i + "'>").html("flip for links");
 			var cardPhotoFront = $("<img src= '" + proyects[i].photo + "' class= 'mix-photo card-img-top' id= 'photo-front" + i + "' alt= 'mix-photo'/>");
 			var cardPhotoBack = $("<img src= '" + proyects[i].photo + "' class= 'mix-photo card-img-top' id= 'photo-back" + i + "' alt= 'mix-photo'/>");
 			card.append(cardFront);
