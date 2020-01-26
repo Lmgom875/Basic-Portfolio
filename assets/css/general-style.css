@@ -28,10 +28,12 @@ body {
 	padding: 10px;
 	margin: 0;
 }
-#my-photo {
+#my-photo{
 	margin-right: 10px;
-	float: left;
 }
+ #personalInfo{
+	 padding: 10px;
+} 
 #resumeImage{
 	margin-bottom: 20px;
 	width: 90%;
@@ -83,6 +85,22 @@ hr {
 }
 #info {
 	padding: 20px;
+}
+.forms-row{
+	margin: 20px;
+}
+.social-image{
+	width: 50px;
+	height: 50px;
+}
+#col-info{
+	margin-bottom: 15px;
+}
+.text-info{
+	font-size: 20px;
+}
+#icon8prom{
+	font-size: 12px;
 }
 .botton-line {
 	margin-top: 1rem;
